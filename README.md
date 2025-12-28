@@ -21,7 +21,7 @@ It helps in understanding:
 
 ![Education Analysis Performance Dashboard](Screenshot%202025-12-29%20010550.png)
 
-### ❓ Problem Statement
+###  Problem Statement
 
 Educational data is often available in raw format, which makes it difficult to quickly understand performance and patterns.
 This project aims to solve that problem by:
@@ -34,7 +34,7 @@ This allows performance to be analyzed easily without manual effort.
 
 ---
 
-### 📂 Dataset Overview
+###  Dataset Overview
 
 The dataset contains **student-level information**, including:
 
@@ -57,7 +57,7 @@ All data cleaning and transformation was done using **Power Query**, including:
 
 ---
 
-### 📈 Dashboard Features
+### Dashboard Features
 
 * **KPI Cards**
 
@@ -85,7 +85,7 @@ All data cleaning and transformation was done using **Power Query**, including:
 
 ---
 
-### 🧮 Calculations Used
+### Calculations Used
 
 DAX measures were created to calculate:
 
@@ -97,7 +97,7 @@ These calculations update dynamically based on user selection.
 
 ---
 
-### ⚙️ Tools Used
+###  Tools Used
 
 * Power BI Desktop
 * Power Query Editor
@@ -119,7 +119,7 @@ These calculations update dynamically based on user selection.
 
 ---
 
-### 📝 Notes
+###  Notes
 
 This project was created for **learning and demonstration purposes**.
 It can be further enhanced by adding more data, advanced DAX measures, or security features.
