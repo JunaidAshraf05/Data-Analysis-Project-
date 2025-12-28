@@ -1,155 +1,129 @@
 Power BI Dashboard – Education Analysis Performance
 About the Project
+📌 Project Overview
+
+This project is a Power BI dashboard built to analyze student performance and attendance data in a clear and visual manner.
+It helps in understanding:
+
+ 1.Overall academic performance
+
+ 2.Subject-wise scores (English, Math, Science)
+
+ 3.Attendance trends
+
+ 4.Comparisons across different student groups
+
+ 5.The project was created to practice data analysis, DAX calculations, and dashboard design using Power BI.
+
 ## Dashboard Preview
 
 ![Education Analysis Performance Dashboard](Screenshot%202025-12-29%20010550.png)
 
-This project is a Power BI dashboard created to analyze student performance and attendance data in an easy and visual way.
-The dashboard helps in understanding overall academic performance, subject-wise scores, attendance trends, and comparisons across different groups.
-
-This project was built to practice data analysis, DAX calculations, and dashboard design using Power BI.
-
-Dashboard Preview
-
-Below is a snapshot of the final dashboard:
-
-Problem Statement
+### ❓ Problem Statement
 
 Educational data is often available in raw format, which makes it difficult to quickly understand performance and patterns.
-The goal of this project is to:
+This project aims to solve that problem by:
 
-Clean and organize the data
+* Cleaning and organizing the data
+* Calculating meaningful averages and percentages
+* Presenting insights using an interactive dashboard
 
-Calculate meaningful averages and percentages
+This allows performance to be analyzed easily without manual effort.
 
-Present insights in an interactive dashboard
+---
 
-So that performance can be analyzed easily without manual effort.
+### 📂 Dataset Overview
 
-Dataset Overview
+The dataset contains **student-level information**, including:
 
-The dataset contains student-level information such as:
+* Student ID
+* Gender and Ethnicity
+* English, Math, and Science scores
+* Attendance percentage
+* Test preparation status
 
-Student ID
+---
 
-Gender and Ethnicity
+### 🛠 Data Preparation
 
-Subject scores (English, Math, Science)
+All data cleaning and transformation was done using **Power Query**, including:
 
-Attendance percentage
+* Removing duplicate records
+* Handling missing values
+* Correcting data types
+* Creating calculated columns where required
 
-Test preparation status
+---
 
-Data Preparation
+### 📈 Dashboard Features
 
-All data cleaning and transformation was done using Power Query, including:
+* **KPI Cards**
 
-Removing duplicates
+  * Total student count
+  * Average subject scores
+  * Average attendance percentage
 
-Handling missing values
+* **Visual Analysis**
 
-Correcting data types
+  * Average score by ethnicity
+  * Score comparison by gender
+  * Attendance percentage by ethnicity
+  * Performance based on test preparation
 
-Creating calculated fields
+* **Student-Level Insights**
 
-Tools Used
+  * Attendance by student ID
+  * Top 5 students comparison across subjects
 
-Power BI Desktop
+* **Interactive Filters**
 
-Power Query Editor
+  * Gender
+  * Ethnicity
+  * Attendance percentage
 
-DAX (Data Analysis Expressions)
+---
 
-Dashboard Features
-
-KPI Cards
-
-Total student count
-
-Average English, Math, and Science scores
-
-Average attendance percentage
-
-Visual Analysis
-
-Average score percentage by ethnicity
-
-Score comparison by gender
-
-Attendance percentage by ethnicity
-
-Performance comparison based on test preparation
-
-Student-Level Insights
-
-Attendance percentage by student ID
-
-Top 5 students comparison across subjects
-
-Filters
-
-Ethnicity filter
-
-Gender filter
-
-Attendance percentage filter
-
-All visuals update dynamically based on selected filters.
-
-Calculations Used
+### 🧮 Calculations Used
 
 DAX measures were created to calculate:
 
-Average subject scores
+* Average scores
+* Attendance percentages
+* Filter-based performance metrics
 
-Attendance percentages
+These calculations update dynamically based on user selection.
 
-Overall performance metrics
+---
 
-Filter-based calculations
+### ⚙️ Tools Used
 
-These measures allow the dashboard to respond instantly to user interactions.
+* Power BI Desktop
+* Power Query Editor
+* DAX (Data Analysis Expressions)
 
-How the Dashboard Works
+---
 
-Data is loaded into Power BI
+### Project Files
 
-Data cleaning is done using Power Query
+* `Project 2.pbix` – Power BI dashboard file
+* `dashboard.png` – Dashboard screenshot
+* `README.md` – Project documentation
 
-Measures are created using DAX
+---
 
-Visuals are designed and connected with slicers
+###  Author
 
-Users can interact with the dashboard to explore insights
+**Junaid Ashraf**
 
-Insights from the Dashboard
+---
 
-Overall academic performance of students
+### 📝 Notes
 
-Subject-wise score trends
+This project was created for **learning and demonstration purposes**.
+It can be further enhanced by adding more data, advanced DAX measures, or security features.
 
-Attendance comparison across ethnic groups
+---
 
-Impact of test preparation on performance
 
-Identification of top-performing students
 
-File Information
 
-Power BI file: Project 2.pbix
-
-Screenshot: Screenshot 2025-12-29 010550.png
-
-How to Use
-
-Open the .pbix file in Power BI Desktop
-
-Use the slicers on the right to filter data
-
-Hover over charts for detailed values
-
-Analyze patterns and performance visually
-
-Author
-
-Junaid Ashraf
