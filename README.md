@@ -1,5 +1,7 @@
 Power BI Dashboard – Education Analysis Performance
+
 About the Project
+
 📌 Project Overview
 
 This project is a Power BI dashboard built to analyze student performance and attendance data in a clear and visual manner.
